@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultas</title>
+    <title>registro</title>
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body class="body">
@@ -16,15 +16,42 @@
         <nav >
             <ul class="navega">
                 <li><a href="index.html">Productos</a></li>
-                <li><a href="consultas.html">Consultas</a></li>
+                <li><a href="registro.html">Registrate</a></li>
                 <li><a href="cuenta.html">Mi cuenta</a></li>
             </ul>
         </nav>
     </header>
 
-    <p>
-        CONSULTAS
-    </p>
+    <main class="registro">
+       
+       
+        <form class="f-registro">
+            <h2>CREAR CUENTA</h2>
+            <input type="text" placeholder="Nombres">
+            <input type="text" placeholder="Apellidos">
+            <select>
+                <option value="" disabled selected hidden>Tipo de documento</option>
+                <option>DNI</option>
+                <option>Pasaporte</option>
+                <option>Carnet de Extranjeria</option>
+            </select>
+            <input type="text" placeholder="Número de documento">
+
+            <section class="radio">
+            <input type="radio" name="sexo">Hombre
+            <input type="radio" name="sexo">Mujer
+            <input type="radio" name="sexo">Otros
+            </section>
+
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Contrseña">
+            <input type="password" placeholder="Confirmar contraseña">
+
+            <p class="condiciones">Al registrarse acepta nuestros<a href="#">Terminos y condiciones</a></p>
+            <input type="submit" value="REGISTRARSE">
+        </form>
+     
+    </main>
 
     <footer class="footer">
         <div class="contenedor">

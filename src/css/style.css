@@ -7,7 +7,7 @@ html, body{
 }
 
 .body{
-    background-color: aquamarine;
+    background-color: white;
     color: blue;
     font-family: sans-serif;
     justify-content: center;
@@ -54,7 +54,7 @@ a{
     text-decoration: none;
     padding: 10px;
     align-items: center;
-    font-size: large;
+    font-size: 15px;
     color: black;
 }
 
@@ -76,22 +76,71 @@ a:hover{
 
 .pie{
     list-style-type: none;
-    
 }
 
 .pie li a{
     padding: 5px;
-
 }
 
 .copy{
-    background-color: black;
+    background-color: #0f0961;
     display: flex;
     color: white;
     justify-content: space-around;
 }
 
-h4{
+h4, h2{
     text-align: center;
-   
+}
+
+.registro{
+    width: 100%;
+    padding: 10px;
+        
+}
+
+.f-registro{
+    width: 100%;
+    max-width:100;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a5a2db;
+    padding: 20px;
+}
+.f-registro input{
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 18px;
+    width: 15%;
+    height:30px
+    
+}
+.f-registro select{
+    margin-bottom: 20px;
+    width: 15%;
+    height:30px
+}
+.f-registro input[type="submit"]{
+    text-align: center;
+    padding: 10px;
+    border:none;
+    background: rgb(100,200,255);
+    cursor: pointer;
+    width: 10%;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px auto;
+}
+.radio{
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+}
+.condiciones{
+    display: block;
+    margin-bottom: 5px;
 }
