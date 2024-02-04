@@ -22,9 +22,48 @@
         </nav>
     </header>
 
-    <p>
-        CUENTA
-    </p>
+    <main class="perfil">
+        <section class="e-perfil">
+            <div class="foto">
+                <img src="src/img/foto.jpg" alt="">
+            </div>
+            <ul class="social">
+                <li><a href="#facebook">Facebook</a></li>
+                <li><a href="#twitter">Twitter</a></li>
+                <li><a href="#youtube">Youtube</a></li>
+                <li><a href="#linkedin">Linkedin</a></li>
+            </ul>
+        </section>
+        <article class="datos-perfil">
+            <h2>Mi Perfil</h2>
+
+            <form class="f-perfil">
+            <label for="apellidos">Apellidos</label>
+            <input id="apellidos" type="text" value="Gomez Solorzano">
+            <label for="nombres">Nombres</label>
+            <input id="nombres" type="text" value="Jose Michael">
+            <label for="dni">DNI</label>
+            <input id="dni" type="text" value="45275901">
+            <label for="correo">Correo</label>
+            <input id="correo" type="email" value="michael_1308@hotmail.com">
+            <label for="nacimiento">Fecha Nacimiento</label>
+            <input id="nacimiento" type="date" value="1988-08-13">
+            <label for="nacionalidad">Nacionalidad</label>
+            <input id="nacionalidad" type="text" value="Peruano">
+            <label for="genero">Genero</label>
+            <select id="genero">
+                <option>HOMBRE</option>
+                <option>MUJER</option>
+                <option>OTRO</option>
+            </select>
+            <textarea name="comentario" rows="7" cols="40">Sobre mi</textarea>
+            <div class="boton">
+                <input type="submit" value="Actualizar Perfil">
+                <input type="submit" value="Eliminar mi cuenta">
+            </div>
+            </form>
+        </article>
+    </main>
 
     <footer class="footer">
         <div class="contenedor">

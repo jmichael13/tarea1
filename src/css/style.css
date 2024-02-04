@@ -27,7 +27,7 @@ html, body{
 }
 
 .titulo{
-    font-size: 70px;
+    font-size: 50px;
     float: left;
     margin: 1%;
     border-style: groove;
@@ -47,6 +47,7 @@ html, body{
     background-color: silver;
     display: flex;
     justify-content: center;
+    background-color: rgb(98, 195, 233);
 }
 
 a{
@@ -105,7 +106,7 @@ h4, h2{
 }
 
 .f-registro{
-    width: 40%;
+    width: 50%;
     max-width:100%;
     margin: 0 auto;
     display: flex;
@@ -115,35 +116,25 @@ h4, h2{
     background-color: silver;
     padding: 20px;
 }
-.f-registro input{
+input:not([type="submit"]){
     display: flex;
     font-size: 13px;
     margin-bottom: 18px;
-    width: 45%;
-    height:30px
-    
+    width: 50%;
+    height:30px;
+    font-weight: bold;
 }
 .f-registro select{
     margin-bottom: 20px;
-    width: 45%;
+    width: 50%;
     height:30px
 }
-.f-registro input[type="submit"]{
-    text-align: center;
-    padding: 10px;
-    border:none;
-    background: rgb(100,200,255);
-    cursor: pointer;
-    width: 30%;
-    border-radius: 15px;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 0px auto;
-}
+
 .radio{
-    display: flex;
+    display: inline-flex;
     font-size: 13px;
-    font-weight: bold;
+   
+    
 }
 .condiciones{
     display: block;
@@ -162,7 +153,7 @@ h4, h2{
 }
 .item{
     max-width: 210px;
-    padding:  30px;
+    padding:  20px;
     height: 250px;
     text-align: center;
     margin: 0 10px;
@@ -174,7 +165,7 @@ h4, h2{
     background-color: rgb(227, 227, 233);
     border-color: #0f0961;
 }
-.item img{
+img{
     width: 100%;
     
 }
@@ -186,4 +177,57 @@ h4, h2{
     color: red;
     font-weight: bold;
     font-size: 20px;
+}
+
+.perfil{
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+  
+}
+.foto{
+    max-width: 250px;
+    padding:  10px;
+    border-style: ridge;
+    background-color: white;
+}
+.e-perfil{
+    background-color: silver;
+    width: 30%;
+}
+.f-perfil{
+   display: block;
+   margin-left: 10px ;
+}
+.datos-perfil{
+    background-color: silver;
+    width: 40%;
+    border-style: ridge;
+    justify-content: space-between;
+}
+.f-perfil input{
+    display: block;
+    margin-bottom: 10px;
+    
+}
+.boton{
+    display: flex;
+    padding: 15px;
+    justify-content:space-around;
+}
+input[type="submit"]{
+    background-color: rgb(243, 42, 42);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+.f-perfil textarea{
+    margin-top: 5px;
+    display: block;
+}
+.redes-sociales{
+    display: flex;
 }
